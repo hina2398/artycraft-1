@@ -1,2 +1,2 @@
 # artycraft
-html csss
+html css
