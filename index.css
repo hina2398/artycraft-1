@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    height:80px;
+    background-color: black;
+}
+.sec1{
+
+    height:580px;
+    width: 100%;
+    background-color: bisque;
+}
