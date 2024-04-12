@@ -35,3 +35,15 @@
     background-color: var(--blue-color);
     color: white;
 }
+
+/* Footer */
+i{
+    font-size: 25px;
+}
+ul{
+    list-style-type: none;
+}
+i:hover{
+    transform: scale(1.3);
+    transition: transform 0.3s ease;
+}
