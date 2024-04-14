@@ -25,6 +25,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  border: none;
 }
 
 .section-2-card-img {
