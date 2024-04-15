@@ -29,8 +29,9 @@
 .box1{
     height:400px;
     width:260px;
-    /* background-color:rgb(241,237,231); */
-    border-radius:30px;
+    background-color:rgb(241,237,231);
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
     float: left;
     margin-top:70px;
     margin-left:170px;}
@@ -41,8 +42,8 @@
         background-color:rgb(198, 162, 109);
         background-image: url(https://roomester.ru/wp-content/uploads/2018/12/rezba-po-derevu-1-1062x690.jpg);
         background-size: cover;
-        border-top-right-radius: 100px;
-        border-top-left-radius: 100px;
+        border-top-right-radius: 150px;
+        border-top-left-radius: 150px;
         box-shadow: 5px 5px 20px rgb(81, 80, 80);
     }
 
@@ -61,7 +62,8 @@
     height:400px;
     width:260px;
     /* background-color:rgb(241,237,231); */
-    border-radius:30px;
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
     float: left;
     margin-top:70px;
     margin-left:170px;
