@@ -20,6 +20,15 @@
     /* background-size: cover; */
 }
 
+.carousel-tex{
+    
+    position: absolute;
+    color: white;
+    top:300px;
+    left:420px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .sec2{
 
     height:500px;
@@ -29,7 +38,7 @@
 .box1{
     height:400px;
     width:260px;
-    background-color:rgb(241,237,231);
+    /* background-color:rgb(241,237,231); */
     border-top-right-radius: 150px;
     border-top-left-radius: 150px;
     float: left;
@@ -39,7 +48,7 @@
     .box2{
         width: 100%;
         height:260px;
-        background-color:rgb(198, 162, 109);
+        /* background-color:rgb(198, 162, 109); */
         background-image: url(https://roomester.ru/wp-content/uploads/2018/12/rezba-po-derevu-1-1062x690.jpg);
         background-size: cover;
         border-top-right-radius: 150px;
@@ -75,8 +84,8 @@
     background-color:rgb(198, 162, 109);
     background-image: url(https://i.pinimg.com/736x/99/d7/74/99d77402d19f6ab73408430fd010a1ad.jpg);
     background-size: cover;
-    border-top-right-radius: 100px;
-    border-top-left-radius: 100px;
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
     box-shadow: 5px 5px 20px rgb(81, 80, 80);
 }
 
@@ -107,8 +116,8 @@
     background-color:rgb(198, 162, 109);
     background-image: url(https://rulend.ru/images/products/84/48/28/8448281-2.jpg);
     background-size: cover;
-    border-top-right-radius: 100px;
-    border-top-left-radius: 100px;
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
     box-shadow: 5px 5px 20px rgb(81, 80, 80);
 }
 
@@ -134,8 +143,97 @@
     width: 500px;
     float: left;
     margin-left:80px;
-
 }
+
+.animated-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding:10px 30px;
+    border: 4px solid;
+    border-color: transparent;
+    font-size: 16px;
+    background-color: inherit;
+    border-radius:10px;
+    font-weight: 600;
+    color: rgb(10, 15, 4);
+    box-shadow: 0 0 0 2px rgb(12, 12, 12);
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .animated-button svg {
+    position: absolute;
+    width: 24px;
+    fill: rgb(8, 9, 6);
+    z-index: 9;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .animated-button .arr-1 {
+    right: 16px;
+  }
+  
+  .animated-button .arr-2 {
+    left: -25%;
+  }
+  
+  .animated-button .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25px;
+    height: 25px;
+    background-color:rgb(193,234,234);
+    border-radius: 50%;
+    border: 1px solid;
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .animated-button .text {
+    position: relative;
+    z-index: 1;
+    transform: translateX(-12px);
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  
+  .animated-button:hover {
+    box-shadow: 0 0 0 12px transparent;
+    color: #212121;
+    border-radius: 12px;
+  }
+  
+  .animated-button:hover .arr-1 {
+    right: -25%;
+  }
+  
+  .animated-button:hover .arr-2 {
+    left: 16px;
+  }
+  
+  .animated-button:hover .text {
+    transform: translateX(12px);
+  }
+  
+  .animated-button:hover svg {
+    fill: #212121;
+  }
+  
+  .animated-button:active {
+    scale: 0.95;
+    box-shadow: 0 0 0 4px rgb(21, 23, 17);
+  }
+  
+  .animated-button:hover .circle {
+    width: 220px;
+    height: 220px;
+    opacity: 1;
+  }
+  
 .box8{
 
     height: 600px;
@@ -145,13 +243,13 @@
     background-image: url(https://template74678.motopreview.com/mt-demo/74600/74678/mt-content/uploads/2018/11/mt-1652-blog-img-8.jpg);
      background-size: cover;
     margin-left:200px;
-    border-bottom-left-radius:200px;
-    border-bottom-right-radius:200px;
+    border-bottom-left-radius:280px;
+    border-bottom-right-radius:280px;
 
 }
 .sec4{
 
-    height:580px;
+    height:620px;
     background-color:#c1eaea;
     margin-top: 25px;
 }
@@ -263,15 +361,16 @@
 }
 .box15{
 
-    height: 600px;
+    height: 620px;
     background-color: black;
     width:550px;
     float: left;
-    background-image: url(https://template74678.motopreview.com/mt-demo/74600/74678/mt-content/uploads/2018/11/mt-1652-blog-img-8.jpg);
+    background-image: url(../assests/last\ img.png);
     background-size: cover;
     margin-left:100px;
-    border-top-left-radius:200px;
-    border-top-right-radius:200px;
+    margin-top: -60px;
+    border-top-left-radius:280px;
+    border-top-right-radius:280px;
 
 }
 
