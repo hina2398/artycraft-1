@@ -8,6 +8,57 @@ input {
     outline: 1px solid gray;
 }
 
+#buttons {
+
+    padding: 10px 50px;
+    background-color:#213236;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid #213236;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+#buttons:hover {
+    background-color: white;
+    color: gray;
+}
+
+.round {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: white;
+    margin: auto;
+}
+/* Footer */
+i{
+    font-size: 25px;
+}
+ul{
+    list-style-type: none;
+}
+i:hover{
+    transform: scale(1.3);
+    transition: transform 0.3s ease;
+}
+
+/* Default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    outline: 1px solid gray;
+}
+
 .buttons {
     padding: 10px 30px;
     background-color: gray;
@@ -35,14 +86,74 @@ input {
     color: white;
     margin: auto;
 }
+
+/* Navbar */
+.navbar {
+    background-color: #213236 !important;
+    color: white !important;
+}
+
 /* Footer */
-i{
+i {
     font-size: 25px;
 }
-ul{
+
+ul {
     list-style-type: none;
 }
-i:hover{
+
+i:hover {
     transform: scale(1.3);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
+}
+
+.container-fluid {
+    background-color: #213236;
+    color: white;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+    /* Navbar adjustments for smaller screens */
+    .navbar-brand {
+        font-size: 20px;
+    }
+    .navbar-collapse {
+        justify-content: center;
+    }
+    .navbar-nav {
+        margin-top: 10px;
+    }
+    .navbar-nav .nav-item {
+        text-align: center;
+    }
+    .nav-link {
+        padding: 10px !important;
+    }
+    .navbar-toggler {
+        order: 1;
+    }
+    .collapse.navbar-collapse {
+        order: 2;
+    }
+    .form-inline {
+        order: 3;
+        margin-top: 10px;
+    }
+    /* Adjustments for other elements as needed */
+}
+
+@media (max-width: 576px) {
+    /* Additional adjustments for even smaller screens */
+    .navbar-brand {
+        font-size: 18px;
+    }
+    .navbar-nav .nav-link {
+        padding: 5px !important;
+    }
+    .buttons {
+        padding: 8px 20px;
+        font-size: 12px;
+    }
 }

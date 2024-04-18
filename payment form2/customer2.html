@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" `content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="customer.css">
+    <link rel="stylesheet" href="customer2.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
@@ -64,84 +64,67 @@
     <div class="row g-0 p-3">
         <div class="col-md-9 col-12">
             <div style=" display: flex; justify-content: space-evenly;">
-                <div style="width: 200px;">
+                <div style="margin-left: -12%;">
                     <div class="round">
                         <p>1</p>
                     </div>
-                    <p style="text-align: center;">Customer information</p>
+                    <p>Customer information</p>
                 </div>
-                <div style="width: 200px;">
+                <div>
                     <div class="round" style="background-color: lightgray;">
                         <p>2</p>
                     </div>
                     <p style="text-align: center;">Shipping & Payment</p>
                 </div>
-                <div style="width: 200px;">
+                <div>
                     <div class="round" style="background-color: lightgray;">
                         <p>3</p>
                     </div>
                     <p style="text-align: center;">order confirmation</p>
                 </div>
             </div>
-            <p style="font-size: 10px; text-align: end; padding-right: 15px;">Already have an account?Sign in</p>
+            <p style="font-size: 12px; text-align: end; padding-right: 15px; margin-top: 2%;">Already have an account?Sign in</p>
 
             
             <form>
-                <h6>CUSTOMER INFORMATION</h6>
-                <div class="row">
-                    <div class="form-group col-md-6 pb-3">
-                        <input type="email" class="form-control" placeholder="Email">
+                <div style="margin-left: 5%;">
+                    <h6>SHIPPING ADDRESS</h6>
+                    <div>
+                        <textarea style="width: 50%; height: 150px;"> Edit</textarea>
                     </div>
-                    <div class="form-group col-md-6 pb-3">
-                        <input type="text" class="form-control" placeholder="Phone">
-                    </div>
-                </div>
-                <h6>SHIPPING ADDRESS</h6>
+                    <h6 style="margin-top: 2%;">SHIPPING</h6>
 
-                <div class="row">
-                    <div class="form-group col-md-6 pb-3">
-                        <input type="email" class="form-control" placeholder="First Name">
+                    <div style="margin-left: 5%;">
+                        <input type="radio">
+                        <label>Free Shipping within 5-7 business days ₹0.00</label>
                     </div>
-                    <div class="form-group col-md-6 pb-3">
-                        <input type="text" class="form-control" placeholder="Last Name">
+                    <h6 style="margin-top: 2%;">SPECIAL INSTRUCTIONS</h6>
+                    
+                    <div>
+                        <textarea style="height: 150px; width: 40%;">Note for seller (option) </textarea>
                     </div>
+                    <h6 style="margin-top: 2%;">PAYMENT</h6>
+                    
+                    <div style="margin-left: 5%;">
+                        <input type="checkbox">
+                        <label>All transactions are secure and your credit card information is never stored</label><br><br>
+                    </div>
+
+
+                    <a href="../Payment form3/customer3.html" class="buttons">COMPLETE CHECKOUT</a>
                 </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="inputAddress" placeholder="India" />
-                </div>
-                <div class="row mt-3">
-                    <div class="form-group col-md-6 pb-3">
-                        <input type="email" class="form-control" placeholder="Street Address">
-                    </div>
-                    <div class="form-group col-md-6 pb-3">
-                        <input type="text" class="form-control" placeholder="Apt, Unit, Suite, ets(optional)">
-                    </div>
-                </div>
-                <div class="row " style="margin-bottom: 15px;">
-                    <div class="form-group col-md-4 pb-3">
-                        <input type="email" class="form-control" placeholder="Postal / Zip">
-                    </div>
-                    <div class="form-group col-md-4 pb-3">
-                        <input type="text" class="form-control" placeholder="City">
-                    </div>
-                    <div class="form-group col-md-4 pb-3">
-                        <input type="text" class="form-control" placeholder="Delhi">
-                    </div>
-                </div>
-                <a href="../payment form2/customer2.html" class="buttons">CONTINUE</a>
-                <a href="#"style="color: black; font-size: 12px; margin-left: 20px; font-weight: 600;">RETURN TO STORE</a>
             </form>
         </div>
 
- 
+
         <div class="col-md-3 col-12 p-3 mt-md-0 mt-5" style="background-color: lightgray; width: 24%; margin-left: 1%;">
             <div class="row">
                 <div class="col-md-12">
-                    <h5>YORE ORDER</h5>
+                    <h5>YOURE ORDER</h5>
                     <p style=" text-align: end;">EDIT CART</p>
                     <div class="row">
                         <div class="col-6 images ">
-                            <img src="./img/001.webp" class="w-100" />
+                            <img src="../img/001.webp" class="w-100" />
                         </div>
                         <div class="col-6">
                             <p>Golden Gliter Leaves for Flower Making</p>
@@ -218,7 +201,7 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-   
+    
 </body>
 
 </html>
